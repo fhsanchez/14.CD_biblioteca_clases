@@ -1,0 +1,94 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+      
+  /* Clase fixed-width container que se "autocentrará" a sí misma */
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+  }
+  
+/* Botones */
+  #btn_create {
+    background-color: #3c8be8;
+    color: white;
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    box-shadow: 10px 5px 5px black;
+}
+
+#btn_search {
+    background-color: #f4f4f4;
+    width: 150px;
+    height: 35px;
+    border-radius: 20px;
+    color:#3c8be8;
+    font-weight: bold;
+    border: 2px solid :#3c8be8;
+}
+
+#btn_plus {
+    background-color: #90caf8;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 24px;            
+    border: 1px solid #f4f4f4;
+}
+
+
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+.col {
+    flex: 1;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(189, 192, 192);
+}
+
+.col-2 {
+    flex: 2;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(189, 192, 192);
+}
+
+.col-3 {
+    flex: 3;
+    padding: 10px;
+    margin: 2px;
+    background-color: rgb(189, 192, 192);
+}
+/* Navbar */
+
+.nav{
+    border: 1px solid white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-title{
+    width: 150px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.nav-links{  
+    width: 700px;   
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    vertical-align: top;    
+    justify-content: flex-end;  
+}
